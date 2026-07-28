@@ -1,0 +1,13 @@
+#Portland compiler
+#pgf90 -Mbounds -Mextend -r8 addX_FJX_bnit.f
+ pgf90 -Mbounds -Mextend -r8 addX_FJX_cnit.f
+#pgf90 -Mbounds -Mextend -r8 addX_FJX_cl2o2.f
+#pgf90 -Mbounds -Mextend -r8 addX_FJX_brcl.f
+#pgf90 -Mbounds -Mextend -r8 addX_FJX_so3.f
+
+#Gnu
+#gfortran -ffixed-line-length-132 -fdefault-real-8 addX_FJX_so3_v2.f
+
+#Intel
+#ifort -extend-source -r8 addX_FJX_so3_v2.f
+
